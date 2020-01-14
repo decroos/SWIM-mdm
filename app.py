@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('swimassetmanager.html', url=url)
+    return render_template('swimassetmanager.html')
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
